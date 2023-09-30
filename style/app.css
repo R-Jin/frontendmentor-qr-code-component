@@ -1,0 +1,38 @@
+body {
+  background-color: #D6E1F0;
+  font-family: "Lato";
+}
+
+.card {
+  position: absolute;
+  top: 50%;
+  left: 50%;
+  transform: translate(-50%, -50%);
+  border-radius: 10px;
+  width: 310px;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  background-color: #ffffff;
+  padding: 15px;
+  box-shadow: 0px 0px 40px #c8d8ee;
+}
+.card img {
+  width: 99%;
+  border-radius: 10px;
+}
+.card h2 {
+  width: 90%;
+  text-align: center;
+  font-style: black;
+  font-weight: 900;
+  color: #212F48;
+  margin-bottom: -1px;
+}
+.card p {
+  width: 80%;
+  text-align: center;
+  color: rgba(33, 47, 72, 0.7);
+  font-weight: 400;
+  margin-bottom: 25px;
+}/*# sourceMappingURL=app.css.map */
